@@ -1,10 +1,64 @@
-body{
-    /* height: max-content; */
-    background-size: 600px;
-    /* background-color: blue; */
-    background-image: image-set('style/backgroun2.jpg');
+* {
+    margin: 0;
+    padding: 0;
+  }
+.main{
+    width: 100%;
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url('photo12.jpg');
+    background-position:center;
+    background-size: cover;
+    height: 109vh;
 }
-.padding{
-    background-color: blanchedalmond;
-    text-align: justify;
+
+.navbar{
+width: 1200px;
+height: 75px;
+margin: auto;
 }
+.icon{
+    width: 200px;
+    float: left;
+    height: 70px;
+}
+.logo{
+    color:tomato;
+    font-size:36px;
+    font-style: italic;
+    font-weight: 800;
+    font-family: Cambria;
+    padding-left: 20px;
+    float:left;
+    padding-top: 10px;;
+}
+.manue{
+    width: 400px;
+    float: left;
+    height: 70px;   
+}
+ul{
+    float:left; 
+    display:flex;
+    justify-content:center; 
+    align-items: center; 
+}
+ul li{
+    list-style: none;
+    margin-left: 60px;
+    margin-top: 15px;
+    font-size: 20px;
+ }
+/*ul li a{
+    text-decoration: none;
+    color:aliceblue;
+    font-family: Cambria;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+ul li a:hover{
+    color: tomato;
+}
+.search{
+    width: 330px;
+    float:left;
+    margin-left: 270px;
+} */
